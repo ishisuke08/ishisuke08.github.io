@@ -1,10 +1,10 @@
 :root {
-  --color-background: #fef9f3;
-  --color-surface: #fff5eb;
-  --color-text: #5a4a42;
-  --color-text-muted: #9a8a82;
-  --color-accent: #ffb3d9;
-  --color-border: #f0d9e8;
-  --font-family-base: "Hiragino Maru Gothic ProN", "Rounded Mplus 1c", sans-serif;
-  --radius-base: 18px;
+  --color-background: #f5ede0;
+  --color-surface: #ebe3d6;
+  --color-text: #3d2817;
+  --color-text-muted: #7a6b5d;
+  --color-accent: #c17a5a;
+  --color-border: #d4c4b0;
+  --font-family-base: "Georgia", "Hiragino Mincho ProN", serif;
+  --radius-base: 8px;
 }
