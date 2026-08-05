@@ -1,21 +1,10 @@
 :root {
-  /* ===== 色 ===== */
-  --color-background: #ffffff;  /* ページ背景色 */
-  --color-surface: #f5f5f5;  /* カード背景色 */
-  --color-text: #1a1a1a;  /* 通常テキスト色 */
-  --color-text-muted: #6b6b6b;  /* 説明文などの薄いテキスト色 */
-  --color-accent: #2563eb;  /* リンクや強調箇所の色  */
-  --color-border: #e5e5e5;  /* 枠線の色 */
-
-  /* ===== フォント ===== */
-  --font-family-base: "Helvetica Neue", Arial, "Hiragino Sans", sans-serif;
-
-  /* ===== サイズ ===== */
-  --radius-base: 8px;  /* 角丸の大きさ（数値を大きくすると丸くなる） */
-  --spacing-unit: 8px;  /* 余白の基本単位（数値を大きくすると余白が広くなる） */
-
-  /* ===== ヘッダーの揃え方 ===== */
-  /* left = 左揃え / center = 中央揃え */
-  --header-name-align: left;  /* 名前 */
-  --header-tagline-align: left;  /* 自己紹介。短い一言なら center も見栄えがよい */
+  --color-background: #f5ede3;
+  --color-surface: #ede5d9;
+  --color-text: #3d2817;
+  --color-text-muted: #8b7355;
+  --color-accent: #c17a4a;
+  --color-border: #d4c4b0;
+  --font-family-base: "Georgia", "Hiragino Mincho ProN", serif;
+  --radius-base: 8px;
 }
