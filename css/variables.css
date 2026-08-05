@@ -1,10 +1,10 @@
 :root {
-  --color-background: #f5ede0;
-  --color-surface: #ebe3d6;
-  --color-text: #3d2817;
-  --color-text-muted: #7a6b5d;
-  --color-accent: #c17a5a;
-  --color-border: #d4c4b0;
-  --font-family-base: "Georgia", "Hiragino Mincho ProN", serif;
-  --radius-base: 8px;
+  --color-background: #f5f1ed;
+  --color-surface: #ebe5de;
+  --color-text: #3d3530;
+  --color-text-muted: #8b7f76;
+  --color-accent: #a0826d;
+  --color-border: #d4ccc3;
+  --font-family-base: "Segoe UI", "Hiragino Sans", sans-serif;
+  --radius-base: 6px;
 }
