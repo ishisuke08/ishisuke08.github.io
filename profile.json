@@ -7,9 +7,9 @@
   "repositories": [
     {
       "name": "Beauty",
-      "generatedText": "肌悩みに合わせたスキンケア商品を提案するWebアプリ。複数の選択肢から悩みを選ぶと、おすすめの美容液が表示される。",
+      "generatedText": "肌悩みに合わせてスキンケア商品を提案するWebアプリ。",
       "appealText": "",
-      "sourceHash": "70c0e7c3f3384f31e1fb6cb7d59e2522b1f49af077bb3b26de51f81f6af659ce"
+      "sourceHash": "d9df0a58e215913128673fad776e632acd655060d02514d78bb465e308f80f28"
     }
   ]
 }
