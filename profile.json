@@ -7,9 +7,9 @@
   "repositories": [
     {
       "name": "Beauty",
-      "generatedText": "肌悩みを選択するとおすすめのスキンケア商品を提案するWebアプリ。",
+      "generatedText": "肌悩みに合わせたスキンケア商品を提案するWebアプリ。",
       "appealText": "",
-      "sourceHash": "b9cc97f77477182fe6f727d670b07e4728e5038063dff15ae46f350f4a972cdf"
+      "sourceHash": "b77be3ede525df1eb19741f0b86bb6fc4d4aa70541d786b09ca45e9373c3b08c"
     }
   ]
 }
