@@ -10,7 +10,7 @@
 | --- | --- | --- |
 | `css/variables.css` | 色・フォント・余白の設定。**まずはここを編集** | **編集した内容が残る** |
 | `css/custom.css` | 自由にスタイルを書き足す場所 | **編集した内容が残る** |
-| `profile.json` | 名前と自己紹介の保存先 | **編集した内容が残る** |
+| `profile.json` | 名前・自己紹介・説明文の保存先 | **編集した内容が残る** |
 | `index.html` | サイト本体 | 作り直される |
 | `css/base.css` | レイアウトの実装。基本的に触らない | 作り直される |
 | `README.md` | このファイル | 作り直される |
@@ -29,11 +29,45 @@
   "socialLinks": [
     { "platform": "twitter", "url": "https://x.com/example" }
   ],
-  "layoutPattern": "standard"
+  "layoutPattern": "standard",
+  "repositories": [
+    {
+      "name": "example-app",
+      "generatedText": "AIが書いた説明文",
+      "appealText": "",
+      "sourceHash": "..."
+    }
+  ]
 }
 ```
 
 `socialLinks` の `platform` は `twitter` / `github` / `zenn` / `qiita` / `other` のいずれかです。それ以外の値やhttp(s)以外のURLは表示されません。
+
+## リポジトリの説明文を自分で書く
+
+カードに出る説明文は `repositories` に保存されています。
+
+| フィールド | 意味 |
+| --- | --- |
+| `generatedText` | AIが書いた文章。**READMEを更新すると書き直される** |
+| `appealText` | あなたが書く欄。**空でなければこちらが表示される** |
+| `sourceHash` | 作り直しの要否を判断するための内部用の値。触らなくて構いません |
+
+`appealText` が空のあいだは、AIが書いた `generatedText` が表示されます。**READMEを書き足してからもう一度生成すると、新しいREADMEを読んで説明文が作り直されます。** リポジトリを育てるほど紹介文もよくなります。
+
+READMEを変えていなければ文章は変わりません。気に入った文章があれば、**`generatedText` から `appealText` にコピーすると完全に固定できます**（以後そのリポジトリではAIが呼ばれません）。
+
+```json
+{
+  "name": "example-app",
+  "generatedText": "AIが書いた説明文",
+  "appealText": "自分で書いた説明文（こちらが表示される）"
+}
+```
+
+またAIに任せたくなったら、`appealText` を `""` に戻してもう一度生成してください。
+
+READMEを変えていないのに説明文を作り直したいときは、`generatedText` を `""` にしてから生成してください。
 
 `layoutPattern` に下記以外の値を入れても `standard` として扱われます。指定できる値は次のとおりです。
 

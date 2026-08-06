@@ -3,5 +3,13 @@
   "tagline": "おためし",
   "skills": [],
   "socialLinks": [],
-  "layoutPattern": "skills-bottom"
+  "layoutPattern": "standard",
+  "repositories": [
+    {
+      "name": "Beauty",
+      "generatedText": "肌悩みを選択するとおすすめのスキンケア商品を提案するWebアプリ。",
+      "appealText": "",
+      "sourceHash": "b9cc97f77477182fe6f727d670b07e4728e5038063dff15ae46f350f4a972cdf"
+    }
+  ]
 }
