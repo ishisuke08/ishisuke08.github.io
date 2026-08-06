@@ -24,9 +24,24 @@
 ```json
 {
   "displayName": "表示名",
-  "tagline": "自己紹介"
+  "tagline": "自己紹介",
+  "skills": ["React", "TypeScript", "Next.js"],
+  "socialLinks": [
+    { "platform": "twitter", "url": "https://x.com/example" }
+  ],
+  "layoutPattern": "standard"
 }
 ```
+
+`socialLinks` の `platform` は `twitter` / `github` / `zenn` / `qiita` / `other` のいずれかです。それ以外の値やhttp(s)以外のURLは表示されません。
+
+`layoutPattern` に下記以外の値を入れても `standard` として扱われます。指定できる値は次のとおりです。
+
+| 値 | 内容 |
+| --- | --- |
+| `standard` | 既定。SNSアイコンはヘッダー右上に固定、スキルはリポジトリ一覧の上 |
+| `skills-bottom` | スキルバッジをリポジトリ一覧の下に移動する |
+| `socials-inline` | SNSアイコンの右上固定をやめ、プロフィールのすぐ下に通常の行として並べる |
 
 blank folio の入力欄から変更するのが簡単ですが、このファイルを直接編集しても構いません。**入力欄を空のまま生成した場合、ここに保存されている内容がそのまま使われます**（消えません）。
 
@@ -109,7 +124,7 @@ blank folio の入力欄から変更するのが簡単ですが、このファ�
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* ヘッダーに背景を付ける */
+/* ヘッダーに背景を付ける（本文と同じ幅の範囲に適用されます） */
 .portfolio-header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
