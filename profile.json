@@ -2,14 +2,19 @@
   "displayName": "ishisuke08",
   "tagline": "おためし",
   "skills": [],
-  "socialLinks": [],
+  "socialLinks": [
+    {
+      "platform": "other",
+      "url": "https://www.youtube.com/@mikami_official"
+    }
+  ],
   "layoutPattern": "standard",
   "repositories": [
     {
-      "name": "ishisuke08.github.io",
-      "generatedText": "",
+      "name": "Beauty",
+      "generatedText": "肌悩みに合わせてスキンケア商品を提案するWebアプリ。",
       "appealText": "",
-      "sourceHash": ""
+      "sourceHash": "d9df0a58e215913128673fad776e632acd655060d02514d78bb465e308f80f28"
     }
   ]
 }
