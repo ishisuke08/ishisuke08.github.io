@@ -4,6 +4,10 @@
   "skills": [],
   "socialLinks": [
     {
+      "platform": "twitter",
+      "url": "https://x.com/hajimesyacho?lang=ja"
+    },
+    {
       "platform": "other",
       "url": "https://www.youtube.com/@mikami_official"
     }
