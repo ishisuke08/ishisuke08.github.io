@@ -1,16 +1,16 @@
 :root {
-  --color-background: #ffffff;
-  --color-surface: #f5f5f5;
-  --color-text: #1a1a1a;
-  --color-text-muted: #808080;
-  --color-accent: #000000;
-  --color-border: #e0e0e0;
-  --font-family-base: "Helvetica Neue", "Hiragino Sans", sans-serif;
-  --radius-base: 0px;
-  --spacing-unit: 16px;
+  --color-background: #f5f1ed;
+  --color-surface: #ebe5df;
+  --color-text: #3d3530;
+  --color-text-muted: #7a6f68;
+  --color-accent: #a67c52;
+  --color-border: #d4ccc4;
+  --font-family-base: "Georgia", "Hiragino Mincho ProN", serif;
+  --radius-base: 8px;
+  --spacing-unit: 14px;
   --layout-align: center;
   --font-size-base: 16px;
-  --line-height-base: 1.6;
+  --line-height-base: 1.8;
   --container-width: 900px;
   --grid-columns: 2;
 }
