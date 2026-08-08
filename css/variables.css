@@ -3,10 +3,10 @@
   --color-surface: #ebe5df;
   --color-text: #3d3530;
   --color-text-muted: #7a6f68;
-  --color-accent: #a67c52;
-  --color-border: #d4ccc4;
+  --color-accent: #c17a5c;
+  --color-border: #d4ccc3;
   --font-family-base: "Georgia", "Hiragino Mincho ProN", serif;
-  --radius-base: 8px;
+  --radius-base: 12px;
   --spacing-unit: 14px;
   --layout-align: center;
   --font-size-base: 16px;
