@@ -1,13 +1,13 @@
 :root {
-  --color-background: #f5ede0;
-  --color-surface: #ebe3d5;
+  --color-background: #f5ede3;
+  --color-surface: #ede5d9;
   --color-text: #3d2817;
-  --color-text-muted: #6b5a47;
+  --color-text-muted: #6b5a4a;
   --color-accent: #c17a5c;
   --color-border: #d4c4b0;
   --font-family-base: "Georgia", "Hiragino Mincho ProN", serif;
   --radius-base: 8px;
-  --spacing-unit: 12px;
+  --spacing-unit: 14px;
   --layout-align: center;
   --font-size-base: 16px;
   --line-height-base: 1.8;
